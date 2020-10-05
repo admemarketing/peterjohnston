@@ -18,6 +18,11 @@ const Footer = ()=>{
                         
                         
                     <nav className="social-media-nav">
+
+                        <h1 className="footer-headinglinks">
+                            Follow Me Social Media
+                        </h1>
+
                         <ul>
                             <li>
                                 <a href="https://www.facebook.com/Dr-Peter-Johnston-103471954585824/?modal=admin_todo_tour"

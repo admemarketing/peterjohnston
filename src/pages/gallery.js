@@ -4,19 +4,18 @@ import Nav from '../components/nav'
 import Banner from '../components/banner'
 
 
-const Gallery = ()=>{
+const Gallery = (props)=>{
     return(
         <>
             <Layout>
-		 		<Nav pathExt={props.path} 
-                     blogNav={false}
+                 <Nav 
+                    pathExt={props.path}
+                    blogNav={false}
                 />
-
+                
 		 		<Banner titlePage={`<span>Gallery</span>`}/>
 
                 <div className="gallery-images">
-                
-
                 </div>
             </Layout>
         </>
