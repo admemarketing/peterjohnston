@@ -2,6 +2,7 @@
   title: "Blog 3 "
   date : "July 30, 2020"
   author : "Peter Johnston"
+  attachedLink: ""
 ---
 
 At a time when America, Britain, France and Australia are beset with the triple whammy of pandemic, economic recession and racial tensions, it’s worth looking at a young woman who demonstrates effective leadership.
