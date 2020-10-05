@@ -56,9 +56,7 @@ const BlogPage = (props)=>{
                                             num={`0${indx + 1}`}
                                             title={`${edge.node.frontmatter.title}`}
                                             date={`${edge.node.frontmatter.date}`}
-                                            content={
-                                                `${edge.node.html}`
-                                            }
+                                            content={`${edge.node.html}`}
                                             slugPost={`${edge.node.fields.slug}`}
                                         />
                                     </>
