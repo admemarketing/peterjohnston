@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Lois Richman`,
-    description: `Official Stratton Templates`,
-    author: `@Lois Richman`,
+    description: `ADME Marketing Templates`,
+    author: `@PeterJohnston`,
   },
   plugins: [
 

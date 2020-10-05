@@ -1,7 +1,6 @@
 import React from 'react'
 import {graphql, useStaticQuery, Link } from 'gatsby'
 import Layout from '../components/layout'
-import Banner from '../components/banner'
 import Nav from '../components/nav'
 import Thumbnail from '../../static/thumbnail/main_author_thumbnail.png'
 import { DiscussionEmbed } from "disqus-react"
@@ -19,12 +18,11 @@ export const query = graphql`
 `
 
 const Blog = (props) =>{
-
-
+    
     const slug =(props.location.href);
     
     const disqusConfig = {
-      shortname: 'lois-richman',
+      shortname: 'peter-johnston-1',
       config: { identifier:  12, slug}
     }
 
@@ -45,7 +43,7 @@ const Blog = (props) =>{
                             </div>
                             <div className="single-post-meta">
                                 <span className="author-name-single-post">
-                                    <Link to="/about-the-author">Lois Richman</Link>
+                                    <Link to="/about-the-author">Peter Johnston</Link>
                                 </span>
 
                                <span className="single-post-date">

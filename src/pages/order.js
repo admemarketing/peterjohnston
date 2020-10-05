@@ -13,7 +13,6 @@ const Order =  (props) =>{
                 <Nav/>
                 <Banner titlePage={`<span>Order</span>`} />
 
-
                 <section className="upper-main" id="main-upper-author">
                     <div className="grid-one-col">
                         <div className="grid-child" id="author-contents">
