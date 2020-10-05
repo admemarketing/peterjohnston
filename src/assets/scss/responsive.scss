@@ -32,6 +32,17 @@
 
 @media screen and ( max-width : 990px){
 
+    .heading-letters{
+        font-size: 2rem;
+    }
+
+    .heading-banner-section{
+        position: absolute;
+        top: 14%;
+        width: 100%;
+        margin: 0 12%;
+    }
+
     .button-container{
         a{
             &:before{
@@ -272,6 +283,11 @@
 }
 
 @media screen and (max-width: 650px){
+
+
+    .grid-video-container{
+        width: 100% !important;
+    }
 
     .grid-parent-blog{
 
