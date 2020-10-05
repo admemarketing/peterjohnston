@@ -2,7 +2,7 @@ import React from 'react'
 import {graphql, useStaticQuery, Link } from 'gatsby'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
-import Thumbnail from '../../static/thumbnail/main_author_thumbnail.png'
+import Thumbnail from '../../static/thumbnail/author-thumbnail.png'
 import { DiscussionEmbed } from "disqus-react"
 
 export const query = graphql`
@@ -18,7 +18,7 @@ export const query = graphql`
 `
 
 const Blog = (props) =>{
-    
+
     const slug =(props.location.href);
     
     const disqusConfig = {
