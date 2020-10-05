@@ -8,7 +8,7 @@ import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 
 const Pp = (props) =>{
-
+		
 	const FetchMarkDown = useStaticQuery(graphql`
 		 query PrivacyPolicyPageQuery  {
 			  markdownRemark(fileAbsolutePath: {regex: "/privacy-policy.md/" }) {
