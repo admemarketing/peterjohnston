@@ -19,7 +19,7 @@ const Footer = ()=>{
                         
                     <nav className="social-media-nav">
 
-                        <h1 className="footer-headinglinks">
+                        <h1 className="footer-heading-links">
                             Follow Me Social Media
                         </h1>
 
