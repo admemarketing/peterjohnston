@@ -20,7 +20,7 @@ const Footer = ()=>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href=""
+                                <a href="https://www.facebook.com/Dr-Peter-Johnston-103471954585824/?modal=admin_todo_tour"
                                 target="_blank">
                                     <FontAwesomeIcon   
                                         className='font-awesome'
@@ -31,7 +31,7 @@ const Footer = ()=>{
                             <li>
                                 <a
                                     target="_blank"
-                                    href="">
+                                    href="https://twitter.com/PeterJo85651758">
                                         
                                     <FontAwesomeIcon
                                         className='font-awesome'
