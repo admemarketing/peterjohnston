@@ -63,6 +63,13 @@ const Nav = (props) =>{
 					</li>
 
 					<li>
+						<Link to="/">
+							Gallery
+						</Link>
+					</li>
+
+
+					<li>
 						<Link to="/order">
 							Order
 						</Link>
