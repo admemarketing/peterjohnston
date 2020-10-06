@@ -36,6 +36,13 @@
         font-size: 2rem;
     }
 
+    .video-thumbnail{
+        .video-grid{
+            grid-template-columns: auto !important;
+        }
+    }
+
+
     .heading-banner-section{
         position: absolute;
         top: 14%;
