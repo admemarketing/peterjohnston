@@ -24,7 +24,7 @@ const Trailer = () =>{
 
                     <div className="grid-video-container">
                         <div className="player-wrapper">
-                            <ReactPlayer
+                            <ReactPlayer 
                                 className="react-player"
                                 url={"https://www.youtube.com/watch?v=3PpE0sxomM4"}
                                 width="100%"

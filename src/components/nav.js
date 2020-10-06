@@ -61,9 +61,16 @@ const Nav = (props) =>{
 							Author
 						</Link>
 					</li>
+
 					<li>
 						<Link to="/order">
 							Order
+						</Link>
+					</li>
+
+					<li>
+						<Link to="/gallery">
+							Gallery
 						</Link>
 					</li>
 
@@ -94,7 +101,10 @@ const Nav = (props) =>{
 						}}
 						to="/">
 						
-						<span className="logo-name">DR. PETER L. JOHNSTON</span>
+						<span className="logo-name">
+							DR. PETER L. JOHNSTON
+						</span>
+
 					</Link>
 				</h1>
 				<h1></h1>

@@ -9,7 +9,7 @@ $prm-font-size : 12px;
 // If need, change your variables before importing Bulma
 
 @import "~bulma/bulma.sass";
-
+@import "slick.scss";
 
 .web-banner{
     background: url("../../../static/banner/front_banner.png");
@@ -480,4 +480,26 @@ $prm-font-size : 12px;
     color: #ffff;
     font-weight: 900;
     font-size: 13px;
+}
+
+
+.heading-gallery{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.video-thumbnail{
+    .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .video-thumb-container{
+        margin: 3% auto;
+        width: 75%;
+    }
+}
+.video-thumbnail{
+    margin-bottom: 7%;
 }
