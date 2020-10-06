@@ -16,7 +16,6 @@ const Footer = ()=>{
 
                     <div className="footer-child footer-paragraph-info">
                         
-                        
                     <nav className="social-media-nav">
 
                         <h1 className="footer-heading-links">

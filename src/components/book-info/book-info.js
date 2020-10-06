@@ -31,9 +31,7 @@ const BookInfo = (props)=>{
                              dangerouslySetInnerHTML={{__html: `${props.data.content}`}} />
                     </section>
 
-                
-
-                </div>	
+                </div>
             </div>
         </>
     )
