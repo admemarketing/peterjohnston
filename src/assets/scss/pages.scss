@@ -96,6 +96,11 @@ $prm-font-size : 12px;
         margin: 4% 0 !important;
     }
 
+    .author-name{
+        color: #eeee;
+        font-weight: bold;
+        text-transform: uppercase;
+    } 
 }
 
 .article-section{
@@ -113,7 +118,7 @@ $prm-font-size : 12px;
     font-size: 26px;
     margin: 2em 16px;
     display: block;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     
     .author-span-ft{
@@ -193,7 +198,7 @@ $prm-font-size : 12px;
 }
 
 .flexMainContainer{
-    margin: 71px 0;
+    padding: 9% 0;
 }
 
 .textArea{
@@ -205,11 +210,11 @@ $prm-font-size : 12px;
 }
 
 textarea::-webkit-input-placeholder{
-    color: #e67602;
+    color: #fff;
 }
 
 textarea:-moz-placeholder {
-    color: #e67602;
+    color: #fff;
 }
 
 .abtiaryButton{
@@ -218,7 +223,7 @@ textarea:-moz-placeholder {
     background: #2e9fff;
     color: #fff;
     text-transform: uppercase;
-    margin-top: 39px; 
+    margin-top: 16px;
 }
 
 .buttonContainer{
@@ -534,6 +539,15 @@ textarea:-moz-placeholder {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    h1{
+        text-align: center;
+        margin-bottom: 5%;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 29px;
+        color: #fff !important;
+    }
 }
 
 .form-custom{
@@ -551,15 +565,25 @@ textarea:-moz-placeholder {
 
     .abtiaryButton{
         background: none;
-        color: #e67602;
+        color: #f7611b !important;
         font-weight: bold;
-        font-size: 22px;
+        margin-top: 16px;
     }
 
     input::-webkit-input-placeholder{
-        color: #e67602;
+        color: #ffff;
     }
     input:-moz-placeholder {
-        color: #e67602;
+        color: #ffff;
+    }
+}
+
+.social-media-list{
+    li{
+        display: inline-block;
+        padding: 0 2%;
+        img{
+            width: 20px;
+        }
     }
 }

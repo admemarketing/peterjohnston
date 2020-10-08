@@ -6,6 +6,11 @@ import Banner from '../components/banner'
 
 import AuthorImg from '../../static/author/author.png'
 
+
+import Fb from "../../static/logo/fb.png"
+import Pinterest from "../../static/logo/pinterest.png"
+import Twitter from "../../static/logo/twitter.png"
+
 const Contact = (props)=>{
 
     
@@ -33,19 +38,30 @@ const Contact = (props)=>{
 
     return(
         <>
-
             <Layout>
-
 		 		<Nav pathExt={props.path}/>
 		 		<Banner titlePage={`<span>Contact</span>`}/>
 
                 <main className="flexMainContainer" id="contact-bg">
+                    <h1>Contact</h1>
                     <div className="flex-container-fx">
                         <div className="grid-two-columns">
 
                             <div className="grid-child author-image-container">
                                 <img src={AuthorImg} alt="author-image"/>
-                                <p>Dr. Peter L. Johnston</p>
+                                <p className="author-name">Dr. Peter L. Johnston</p>
+
+                                <ul className="social-media-list">
+                                    <li>
+                                        <img src={Pinterest} alt="medias"/>
+                                    </li>
+                                    <li>
+                                        <img src={Twitter} alt="medias"/>
+                                    </li>
+                                    <li>
+                                        <img src={Fb} alt="medias"/>
+                                    </li>
+                                </ul>
                             </div>
 
                             <div className="grid-child">
