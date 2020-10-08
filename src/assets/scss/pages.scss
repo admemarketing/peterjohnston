@@ -11,14 +11,17 @@ $prm-font-size : 12px;
 @import "~bulma/bulma.sass";
 @import "slick.scss";
 
-.web-banner{
-    background: url("../../../static/banner/front_banner.png");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
+.videp-banner{
+    height: 115vh;
+    width: 100%;
+    video{
+        height: auto;
+        width: 100%;
+    }
+}
+
+.web-banner{
 
     span{
         letter-spacing: 0.67em;
@@ -120,7 +123,7 @@ $prm-font-size : 12px;
 
 /*About The Book*/
 .wrapperMain{
-    margin: 123px 0;
+    padding: 16% 0;
 }
 
 .bookImgContainer{
@@ -133,10 +136,10 @@ $prm-font-size : 12px;
         padding: 0px;
         margin:0;
     }
+    
 }
 
 .fullSection{
-    // padding: 2em 3em;
     line-height: 0;
 }
 
@@ -149,6 +152,7 @@ $prm-font-size : 12px;
         margin: 13px 0 !important;
         line-height: 2;
         text-transform: uppercase;
+        color: #ffff;
     }
 }
 
@@ -161,9 +165,7 @@ $prm-font-size : 12px;
     border-radius: 1px !important;
     width: 100% !important;
     max-width: 100%;
-    // background: rgb(20, 20, 20);
 }
-
 
 #form-wrapper, #textAreaContainer{
     label{
@@ -386,14 +388,15 @@ $prm-font-size : 12px;
         
 
         &:after{
-            content: '';
-            width: 100%;
-            background: #e0e0e0ee;
-            position: relative;
-            display: block;
-            height: 1px;
-            margin: 22px 2px;
+            // content: '';
+            // width: 100%;
+            // background: #e0e0e0ee;
+            // position: relative;
+            // display: block;
+            // height: 1px;
+            // margin: 22px 2px;
         }
+
     }
 
     p{
@@ -482,11 +485,11 @@ $prm-font-size : 12px;
     font-size: 13px;
 }
 
-
 .heading-gallery{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2%;
+    color: #fff !important;
 }
 
 .video-thumbnail{
@@ -500,6 +503,13 @@ $prm-font-size : 12px;
         width: 75%;
     }
 }
-.video-thumbnail{
-    margin-bottom: 7%;
+
+/*Backgrounds*/
+#about-the-book-body,
+#gallery-body{
+    background-image: url("../../../static/banner/bg_about_the_book.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

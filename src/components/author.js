@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player/youtube'
 const Author = () =>{
     return(
         <>
-            <section className="upper-main" id="main-upper-author">
+            <section className="upper-main"  id="main-upper-author">
                 <div className="grid-one-col">
                      <div className="grid-child" id="author-contents">
                         

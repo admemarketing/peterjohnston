@@ -38,7 +38,6 @@ const Blog = (props) =>{
                     blogNav={true}
                  />
 
-           
                 <section className="section-single-blog-post">
                 	<div className="container">
 
@@ -77,7 +76,6 @@ const Blog = (props) =>{
                                 </div>
                             )
                         }
-
 
                         <div className="single-post-content">
                              <div 

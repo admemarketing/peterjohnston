@@ -9,9 +9,8 @@ import FrontBook from '../../static/books/main_book.png'
 
 const ATB = (props)=>{
 
-  
     const slug = (props.location.href);
-    
+     
 	const disqusConfig = {
 	  shortname: 'peter-johnston-1',
 	  config: { identifier:  12, slug}
@@ -26,15 +25,15 @@ const ATB = (props)=>{
 
 		 		<Banner titlePage={`<span>Books</span>`}/>
 
-                <main className="wrapperMain">
+                <main className="wrapperMain" id="about-the-book-body">
                     <div 
                         className="container"
                         id="book-containers" >
 
                             <BookInfo
                                 data={{
-                                    title:`THE EAGLE'S WAY`,
-                                    spanFirst: `The importance of love in health care`,
+                                    title:``,
+                                    spanFirst: ``,
                                     imgSrc: FrontBook,
                                     id:'the_gifted_one',
                                     content:
@@ -95,12 +94,6 @@ const ATB = (props)=>{
                                     }
                                 }} 
                             />
-            
-                            <div className="commentSection" >
-                                <div id="disqus_thread">
-                                    <DiscussionEmbed {...disqusConfig} />
-                                </div>
-                            </div>
                     </div>	
                 </main>
 

@@ -45,66 +45,68 @@ const Gallery = (props)=>{
                 />
 
 		 		<Banner titlePage={`<span>Gallery</span>`}/>
-        
-                <div className="gallery-images">
 
-                    <h1 className="heading-gallery">Photos</h1>
+                <section id="gallery-body">
+                    <div className="gallery-images">
 
-                    <Slider {...settings}>
-                        <div className="gallery-slider">
-                            <img alt="auth_image" src={Img1}/>
-                        </div>
+                        <h1 className="heading-gallery">Photos</h1>
 
-                        <div className="gallery-slider">
-                            <img alt="auth_image" src={Img2}/>
-                        </div>
+                        <Slider {...settings}>
+                            <div className="gallery-slider">
+                                <img alt="auth_image" src={Img1}/>
+                            </div>
 
-                        <div className="gallery-slider">
-                            <img alt="auth_image" src={Img3}/>
-                        </div>
+                            <div className="gallery-slider">
+                                <img alt="auth_image" src={Img2}/>
+                            </div>
 
-                        <div className="gallery-slider">
-                            <img alt="auth_image" src={Img4}/>
-                        </div>
-                    </Slider>
-                </div>
+                            <div className="gallery-slider">
+                                <img alt="auth_image" src={Img3}/>
+                            </div>
 
-                <div className="video-thumbnail">
-                    <h1 className="heading-gallery">Videos</h1>
+                            <div className="gallery-slider">
+                                <img alt="auth_image" src={Img4}/>
+                            </div>
+                        </Slider>
+                    </div>
 
-                    <div className="video-grid">
-                        <div className="grid-child">
-                            <div className="video-thumb-container">
-                                <div className="player-wrapper">
-                                    <ReactPlayer 
-                                        className="react-player"
-                                        url={"https://www.youtube.com/embed/xKFbaz-yHJY?feature=oembed"}
-                                        width="100%"
-                                        height="400px"
-                                        controls={true}
-                                        playIcon
+                    <div className="video-thumbnail">
+                        <h1 className="heading-gallery">Videos</h1>
+
+                        <div className="video-grid">
+                            <div className="grid-child">
+                                <div className="video-thumb-container">
+                                    <div className="player-wrapper">
+                                        <ReactPlayer 
+                                            className="react-player"
+                                            url={"https://www.youtube.com/embed/xKFbaz-yHJY?feature=oembed"}
+                                            width="100%"
+                                            height="400px"
+                                            controls={true}
+                                            playIcon
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="grid-child">
+                                <div className="video-thumb-container">
+                                    <div className="player-wrapper">
+                                        <ReactPlayer 
+                                            className="react-player"
+                                            url={"https://www.youtube.com/embed/YycwnKMy5qM?feature=oembed"}
+                                            width="100%"
+                                            height="400px"
+                                            controls={true}
+                                            playIcon
                                     />
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="grid-child">
-                            <div className="video-thumb-container">
-                                <div className="player-wrapper">
-                                    <ReactPlayer 
-                                        className="react-player"
-                                        url={"https://www.youtube.com/embed/YycwnKMy5qM?feature=oembed"}
-                                        width="100%"
-                                        height="400px"
-                                        controls={true}
-                                        playIcon
-                                    />
-                                </div>
+                            
                             </div>
-                           
                         </div>
                     </div>
-                </div>
+                </section>
             </Layout>
         </>
     )

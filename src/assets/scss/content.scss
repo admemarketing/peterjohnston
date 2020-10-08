@@ -334,17 +334,6 @@
 
 /* End of Ant Customization*/
 
-/*Bottom*/
-
-.parallax-bottom {
-    background: url("../../../static/banner/banner_lower.png");
-    // background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-}
-
 .flex-container{
     display: grid;
     height: 60vh;
@@ -544,12 +533,13 @@
         text-transform: uppercase;
         font-weight: 900;
         letter-spacing: 0;
-        color: #313131 !important;
+        color: #ffffff !important;
         font-style: italic;
     }
-
+    
     .content-index{
         text-transform: uppercase;
+        color: #fffe;
     }
 
 
@@ -559,7 +549,7 @@
         width: 100%;
 
         span{
-            color: #000 !important;
+            color: #fff !important;
             font-weight: 900;
             display: block;
             letter-spacing: 0;
@@ -602,6 +592,9 @@
     }
 }
 
+#main-upper-author{
+    background-image: url("../../../static/banner/bg_home.png");
+}
 
 .grid-video-container{
     margin: 3% auto;
