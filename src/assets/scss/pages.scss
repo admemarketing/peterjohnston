@@ -85,13 +85,18 @@ $prm-font-size : 12px;
 }
 
 .author-image-container{
-
     text-align: center;
+
     img{
-        width: 305px;
-        border: 12px solid #e0e0db57;
+        width: 220px;
+        max-width: 100%;
     }
-}       
+
+    p{
+        margin: 4% 0 !important;
+    }
+
+}
 
 .article-section{
     p{
@@ -192,10 +197,19 @@ $prm-font-size : 12px;
 }
 
 .textArea{
-    height: 250px;
-    border: 1px solid #cecece;
+    height: 150px;
     width: 100%;
-    // background: #181818;
+    background: #ffae5b7d;
+    border: none;
+    padding: 5%;
+}
+
+textarea::-webkit-input-placeholder{
+    color: #e67602;
+}
+
+textarea:-moz-placeholder {
+    color: #e67602;
 }
 
 .abtiaryButton{
@@ -512,4 +526,40 @@ $prm-font-size : 12px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#contact-bg{
+    background-image: url("../../../static/banner/contact_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-custom{
+    label{
+        display: block;
+    }
+
+    input {
+        width: 100%;
+        background: #ffae5b7d;
+        border: none;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .abtiaryButton{
+        background: none;
+        color: #e67602;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    input::-webkit-input-placeholder{
+        color: #e67602;
+    }
+    input:-moz-placeholder {
+        color: #e67602;
+    }
 }

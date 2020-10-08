@@ -4,6 +4,7 @@ import Inputs from "../components/Inputs/inputs"
 import Nav from '../components/nav'
 import Banner from '../components/banner'
 
+import AuthorImg from '../../static/author/author.png'
 
 const Contact = (props)=>{
 
@@ -38,67 +39,55 @@ const Contact = (props)=>{
 		 		<Nav pathExt={props.path}/>
 		 		<Banner titlePage={`<span>Contact</span>`}/>
 
-                <main className="flexMainContainer">
+                <main className="flexMainContainer" id="contact-bg">
                     <div className="flex-container-fx">
+                        <div className="grid-two-columns">
 
-                            <p className="contactMessage">
-                                Hello! Are you having a good day? Anyway, if you have any concerns or you just want to 
-                                share something, please feel free to drop me a line. I would love to hear anything from you.
-                            </p>
+                            <div className="grid-child author-image-container">
+                                <img src={AuthorImg} alt="author-image"/>
+                                <p>Dr. Peter L. Johnston</p>
+                            </div>
 
-                            <form 
-                                onSubmit={OnSubmitForm}
-                                action="https://formspree.io/xvopdpny"
-                                method="POST">
+                            <div className="grid-child">
+                                <div className="">
+                                    <form 
+                                    onSubmit={OnSubmitForm}
+                                    action="https://formspree.io/xvopdpny"
+                                    method="POST"
+                                    className="form-custom">
+                                        <label>
+                                            <input 
+                                                type="text"
+                                                placeholder="Name"
+                                            />
+                                        </label>
 
-                            <div className="columns" id="form-wrapper">
-                                <div className="column is-half">
-                            
-                                    <Inputs 
-                                        name="fullname" 
-                                        type="text" />
+                                        <label>
+                                            <input 
+                                                type="Email"
+                                                placeholder="Email"
+                                            />
+                                        </label>
+                                        
+                                        <label> 
+                                            <textarea type="text" name='message' 
+                                                className="textArea"
+                                                placeholder='Message'
+                                                required />
+                                        </label>
 
-                                    <Inputs
-                                        name="phone" 
-                                        type="text" />
+                                        <div className="buttonContainer">
+                                            <input 
+                                                className="abtiaryButton" 
+                                                value="Submit"
+                                                type="submit" />
+                                        </div>
 
-                                </div>
-
-                                <div className="column is-half">
-
-                                    <Inputs 
-                                        name="email"
-                                        type="email" />
-
-                                    <Inputs 
-                                        name="address" 
-                                        type="text" />
-
+                                    </form>
                                 </div>
                             </div>
 
-                            <div className="columns">
-                                <div className="column is-full" id="textAreaContainer">
-                                    <label> Message	</label>
-                                    <textarea type="text" name='message' 
-                                        className="textArea"
-                                        placeholder='Message'
-                                        required />
-            
-
-                                    <div className="buttonContainer">
-                                        <input 
-                                            className="abtiaryButton" 
-                                            value="Submit"
-                                            type="submit" />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </form>
-
-
-    
+                        </div>
                     </div>
                 </main>
 
