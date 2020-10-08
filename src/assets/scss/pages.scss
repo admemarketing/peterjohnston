@@ -53,9 +53,7 @@ $prm-font-size : 12px;
 }
 
 .body-author-contents{
-    margin: 4em 0 !important;
-    // background: #eee;
-    padding: 44px;
+    padding: 9% 0;
 }
 
 .heading-quote{
@@ -108,7 +106,7 @@ $prm-font-size : 12px;
         font-size: 22px;
         line-height: 2.2;
         // text-align: justify;
-        color: #696969;
+        color: #ffffff;
         margin-bottom: 2em;
     }
 }
@@ -586,4 +584,12 @@ textarea:-moz-placeholder {
             width: 20px;
         }
     }
+}
+
+.section-about-author{
+    background-image: url("../../../static/banner/bg_about_the_book.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
