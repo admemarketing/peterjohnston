@@ -45,7 +45,6 @@
 .upper-main{
     
     /*changes*/
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
     padding: 11% 0;
     text-align: center;
     position: relative;
@@ -554,6 +553,7 @@
             display: block;
             letter-spacing: 0;
             line-height: 1;
+            font-size: 3rem;
             font-style: italic;
         }
     }
