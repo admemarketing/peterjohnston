@@ -31,10 +31,10 @@ const Order =  (props) =>{
                             <div className="snipcart-button-container">
                                 <button
                                     className="snipcart-add-item"
-                                    data-item-id="silver-stacking-ring"
-                                    data-item-price="19.99"
+                                    data-item-id="the-eagles-way"
+                                    data-item-price="13.50"
                                     data-item-url="/"
-                                    data-item-name="Silver Stacking Ring"
+                                    data-item-name="The Eagle's way"
                                 >
                                     Add to cart
                                 </button>
