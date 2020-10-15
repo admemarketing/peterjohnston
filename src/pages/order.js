@@ -22,9 +22,24 @@ const Order =  (props) =>{
                                 alt="book-display-order"
                             />
 
-                            <button id="order-here-button">
-                                <a href="https://peterjohnstonauthor.com/product/the-eagles-way/">Order Here</a>
-                            </button>
+                            {
+                                /*
+                                    Order Custom Powered By Snipcart
+                                */
+                            }
+                            
+                            <div className="snipcart-button-container">
+                                <button
+                                    className="snipcart-add-item"
+                                    data-item-id="silver-stacking-ring"
+                                    data-item-price="19.99"
+                                    data-item-url="/"
+                                    data-item-name="Silver Stacking Ring"
+                                >
+                                    Add to cart
+                                </button>
+                            </div>
+
                         </div>
                     </div>
                 </section>

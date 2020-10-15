@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Lois Richman`,
+    title: `Peter Johnston`,
     description: `ADME Marketing Templates`,
     author: `@PeterJohnston`,
   },
@@ -13,6 +13,13 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+        apiKey: 'YmU2ZmZjNWItNzg5Yi00Yjc5LTlmMTgtMDA0ZDllNDZlNDc4NjM3MzgzNjk5MzAzMDQ0MzEw',
+          autopop: true
+        }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
