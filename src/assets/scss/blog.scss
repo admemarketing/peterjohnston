@@ -1,12 +1,13 @@
 #blog-body-content-list{
 
 
-    padding: 4% 6%;
+    padding: 4% 6%; 
 
 	.heading-section{
-		font-size: 4em;
-	    font-weight: bold;
-	    margin: 4% auto;
+        font-size: 2em;
+        font-weight: bold;
+        margin: 4% auto;
+        color: #ffff !important;
 	}
 }
 
@@ -19,14 +20,13 @@
 .grid-parent-blog{
   
     font-weight: 900;
-    text-transform: uppercase;
     text-decoration: underline;
     color: #ffffff !important;
     font-size: 12px;
     letter-spacing: 2px;
     text-decoration: none;
-    background: #1890ff78;
-    padding: 7px;
+    background: #000000e3;
+    padding: 9%;
     
     .blog-link{
         text-align: left;
@@ -34,9 +34,9 @@
          
     	a{
             font-weight: 900;
-            text-transform: uppercase;
-            text-decoration: underline;
-            color: #03A9F4 !important;
+            color: #ffffff !important;
+            background: #40a9ff82;
+            padding: 10px;
     	}
     }
     
@@ -135,4 +135,11 @@
     margin-right: 14px;
     font-style: italic;
     color: #eeeeeea8;
+}
+
+
+.single-post-content{
+    P{
+        font-family: 'Poppins' !important;
+    }
 }

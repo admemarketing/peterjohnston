@@ -67,7 +67,6 @@ const BlogPage = (props)=>{
                                 )
                             }
 
-
                     </div>
                 </div>
 

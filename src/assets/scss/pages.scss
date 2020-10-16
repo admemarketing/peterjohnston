@@ -95,8 +95,15 @@ $prm-font-size : 12px;
 }
 
 .article-section{
+
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
     p{
-        font-size: 22px;
+        font-size: 15px;
         line-height: 2.2;
         // text-align: justify;
         color: #ffffff;
@@ -152,8 +159,9 @@ $prm-font-size : 12px;
     p{
         margin: 13px 0 !important;
         line-height: 2;
-        // text-transform: uppercase;
         color: #ffff;
+        font-family: 'lemonmilk_regular';
+        font-size: 14px;
     }
 }
 
@@ -396,16 +404,6 @@ textarea:-moz-placeholder {
         font-family: 'Fanwood Text', serif;
         color: #983C08;
         
-
-        &:after{
-            // content: '';
-            // width: 100%;
-            // background: #e0e0e0ee;
-            // position: relative;
-            // display: block;
-            // height: 1px;
-            // margin: 22px 2px;
-        }
 
     }
 
