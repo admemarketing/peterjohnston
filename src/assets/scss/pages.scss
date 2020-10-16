@@ -532,6 +532,14 @@ textarea:-moz-placeholder {
     transform: translateY(-147px);
 }
 
+#blog-body-content-list{
+    background-image: url("../../../static/banner/bg_blog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transform: translateY(-147px);
+} 
+
 #contact-bg{
 
     background-image: url("../../../static/banner/contact_bg.png");

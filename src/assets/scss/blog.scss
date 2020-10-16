@@ -1,5 +1,8 @@
 #blog-body-content-list{
-    margin-top: 7%;
+
+
+    padding: 4% 6%;
+
 	.heading-section{
 		font-size: 4em;
 	    font-weight: bold;
@@ -15,15 +18,15 @@
 
 .grid-parent-blog{
   
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 14%;
-    background: #f1eded !important;
-    padding: 15%;
-    box-shadow: 1px 1px 33px 2px #eee;
-    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #ffffff !important;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: #1890ff78;
+    padding: 7px;
     
     .blog-link{
         text-align: left;
@@ -47,15 +50,7 @@
     .blog-body{
     	h1{
             font-size: 1.5rem;
-    		// &:after{
-    		// 	content: '';
-			//     display: block;
-			//     background: #f4f4f4;
-			//     position: absolute;
-			//     width: 60%;
-			//     height: 1px;
-			//     margin: 12px 0;
-    		// }
+            color: #fff !important;
     	}
 
     	.blog-date{
@@ -139,4 +134,5 @@
     font-size: 12px;
     margin-right: 14px;
     font-style: italic;
+    color: #eeeeeea8;
 }

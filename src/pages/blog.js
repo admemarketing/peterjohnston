@@ -38,36 +38,36 @@ const BlogPage = (props)=>{
                 <Nav pathExt={props.path}/>
                 <Banner titlePage={`<span>Blog</span>`}/>
                 
-                <div className="container"  
+                <div  
                     id="blog-body-content-list">
                     <h1 className="heading-section">
                         Blog Contents
                     </h1>
+                    <div id="tailored-grid-blog-template">
 
-                    <div className="container" id="tailored-grid-blog-template">
-                     
-                    {
-                        data.allMarkdownRemark.edges.map((edge , indx)=>{
+                
+                            {
+                                data.allMarkdownRemark.edges.map((edge , indx)=>{
 
-                            if( edge.node.fields.slug != "privacy-policy" && edge.node.fields.slug != "terms-and-condition"  ){
+                                    if( edge.node.fields.slug != "privacy-policy" && edge.node.fields.slug != "terms-and-condition"  ){
 
-                                return(
-                                    <>
-                                        <BlogComponent
-                                            num={`0${indx + 1}`}
-                                            title={`${edge.node.frontmatter.title}`}
-                                            date={`${edge.node.frontmatter.date}`}
-                                            content={`${edge.node.html}`}
-                                            slugPost={`${edge.node.fields.slug}`}
-                                        />
-                                    </>
+                                        return(
+                                                <>
+                                                    <BlogComponent
+                                                        num={`0${indx + 1}`}
+                                                        title={`${edge.node.frontmatter.title}`}
+                                                        date={`${edge.node.frontmatter.date}`}
+                                                        content={`${edge.node.html}`}
+                                                        slugPost={`${edge.node.fields.slug}`}
+                                                    />
+                                                </>
+                                            )
+                                        }
+                                    }
                                 )
-                             }
-                          }
-                       )
-                    }
+                            }
 
-            
+
                     </div>
                 </div>
 
