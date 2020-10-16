@@ -3,9 +3,7 @@ import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/banner'
 import BookInfo from '../components/book-info/book-info'
-import { DiscussionEmbed } from "disqus-react"
 import FrontBook from '../../static/books/main_book.png'
-
 
 const ATB = (props)=>{
 

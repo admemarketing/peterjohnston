@@ -568,10 +568,8 @@
     }
 }
 
-
 .button-container{
     a{
-
         text-transform: uppercase;
         text-indent: inherit;
         font-weight: bold;
@@ -596,9 +594,12 @@
 
 #main-upper-author{
     background-image: url("../../../static/banner/bg_home.png");
-    background-repeat: no-repeat;
-    // box-shadow: 21px 59px 38px 181px rgb(0 0 0 / 0%) inset, -41px -15px 283px 0 rgb(87 89 76 / 0%) inset;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-196px);
+    z-index: 10;
 }
 
 .grid-video-container{

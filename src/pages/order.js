@@ -4,8 +4,6 @@ import Nav from '../components/nav'
 import Banner from '../components/banner'
 import FrontBook from '../../static/books/main_book.png'
 
-
-
 const Order =  (props) =>{
     return(
         <>
@@ -13,7 +11,7 @@ const Order =  (props) =>{
                 <Nav/>
                 <Banner titlePage={`<span>Order</span>`} />
 
-                <section className="upper-main" id="main-upper-author">
+                <section className="upper-main" id="order-bg">
                     <div className="grid-one-col">
                         <div className="grid-child" id="author-contents">
                             <img 

@@ -515,21 +515,30 @@ textarea:-moz-placeholder {
 }
 
 /*Backgrounds*/
-#about-the-book-body,
-#gallery-body{
+#about-the-book-body{
     background-image: url("../../../static/banner/bg_about_the_book.png");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    transform: translateY(-147px);
+}
+
+#gallery-body{
+    background-image: url("../../../static/banner/bg_gallery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transform: translateY(-147px);
 }
 
 #contact-bg{
+
     background-image: url("../../../static/banner/contact_bg.png");
-    background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    transform: translateY(-147px);
 
     h1{
         text-align: center;
@@ -539,7 +548,6 @@ textarea:-moz-placeholder {
         font-size: 29px;
         color: #fff !important;
     }
-    
 }
 
 .form-custom{
@@ -582,8 +590,18 @@ textarea:-moz-placeholder {
 
 .section-about-author{
     background-image: url("../../../static/banner/bg_about_the_book.png");
-    background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transform: translateY(-147px);
+    position: relative;
+    z-index: 10;
+}
+
+#order-bg{
+    background-image: url("../../../static/banner/bg_order.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-147px);
+    position: relative;
+    z-index: 10;
 }
