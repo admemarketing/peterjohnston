@@ -15,12 +15,12 @@ const ATB = (props)=>{
                 <section className="section-about-author">
                     <div className="container">
                         <section className="body-author-contents ">
-                            
+                        
                             <div className="heading-quote">
                                 <div className="author-image-container">
                                     <img src={AuthorImg} />
                                 </div>
-                            </div>
+                            </div> 
 
                             <article className="article-section" id="author">
                                 <p>

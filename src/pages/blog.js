@@ -38,13 +38,14 @@ const BlogPage = (props)=>{
                 <Nav pathExt={props.path}/>
                 <Banner titlePage={`<span>Blog</span>`}/>
                 
-                <div className="container"  id="blog-body-content-list">
+                <div className="container"  
+                    id="blog-body-content-list">
                     <h1 className="heading-section">
                         Blog Contents
                     </h1>
 
-                    <div className="container">
-
+                    <div className="container" id="tailored-grid-blog-template">
+                     
                     {
                         data.allMarkdownRemark.edges.map((edge , indx)=>{
 

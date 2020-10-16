@@ -124,7 +124,7 @@ $prm-font-size : 12px;
 
 /*About The Book*/
 .wrapperMain{
-    padding: 16% 0;
+    padding: 6% 0;
 }
 
 .bookImgContainer{
@@ -152,7 +152,7 @@ $prm-font-size : 12px;
     p{
         margin: 13px 0 !important;
         line-height: 2;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         color: #ffff;
     }
 }
@@ -525,7 +525,7 @@ textarea:-moz-placeholder {
 }
 
 #contact-bg{
-    background-image: url("../../../static/banner/contact_bg.jpg");
+    background-image: url("../../../static/banner/contact_bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -539,6 +539,7 @@ textarea:-moz-placeholder {
         font-size: 29px;
         color: #fff !important;
     }
+    
 }
 
 .form-custom{

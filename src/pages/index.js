@@ -7,8 +7,6 @@ import Banner from "../components/banner"
 import UpperMain from "../components/author"
 
 
-
-
 const IndexPage = (props) => (
   <Layout>
       <Nav pathExt={props.path}/>
@@ -17,7 +15,7 @@ const IndexPage = (props) => (
           <span>Eagle's</span>
           <span>Way</span>`
         }/>
-      <UpperMain/> 
+      <UpperMain/>
   </Layout>
 )
 

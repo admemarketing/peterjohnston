@@ -8,11 +8,6 @@ const BlogComponent = (props) =>{
 	return(
 		<>
 	          <section className="grid-parent-blog">
-				  
-	            <span className="grid-child blog-num">
-					{props.num}
-				</span>
-
 	            <div className="grid-child blog-body">
 
 	            	<span className="published-on">Published On</span>

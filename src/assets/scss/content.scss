@@ -539,8 +539,10 @@
     .content-index{
         text-transform: uppercase;
         color: #fffe;
+        font-size: 15px;
+        margin: 0 auto !important;
+        max-width: 700px;
     }
-
 
     h1{
         margin: 3% 0;
@@ -594,6 +596,9 @@
 
 #main-upper-author{
     background-image: url("../../../static/banner/bg_home.png");
+    background-repeat: no-repeat;
+    // box-shadow: 21px 59px 38px 181px rgb(0 0 0 / 0%) inset, -41px -15px 283px 0 rgb(87 89 76 / 0%) inset;
+    position: relative;
 }
 
 .grid-video-container{
